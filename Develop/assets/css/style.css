@@ -1,9 +1,11 @@
+/* wildcard class defining general formatting for the webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*defines the background color of the body*/
 body {
     background-color: #d9dcd6;
 }
@@ -15,6 +17,7 @@ body {
     color: #ffffff;
 }
 
+/* formats header 1 to 48px font size and inline block display type */
 .header h1 {
     display: inline-block;  
     font-size: 48px;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* next three class entries give correct positioning and formatting to the navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,11 +45,13 @@ body {
     margin-left: 25px
 }
 
+/* defines the color and text decoration of 'a' tags */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* defines the font size in paragraph elements */
 p {
     font-size: 16px;
 }
