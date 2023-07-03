@@ -10,6 +10,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* defines formatting of the header. Consolidated other element selectors within the class */
 .header {
     padding: .5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -84,6 +85,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
 
 .benefits {
     margin-right: 20px;
